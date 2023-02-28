@@ -58,7 +58,7 @@ function generatePassword () {
     alert('You need to select at least one option.');
     return '';
  
-}}
+}
 var answerResponse =''.concat (lowercase, uppercase, numbers, characters);
 var chooseAnswers = "";
 
@@ -68,5 +68,5 @@ for (var i = 0; i < chooseCharacterSize; i++) {
 }
 
 return chooseAnswers;
-
+}
 
